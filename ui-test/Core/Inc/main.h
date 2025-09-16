@@ -31,6 +31,7 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "user_app.h"
 
 /* USER CODE END Includes */
 
@@ -57,10 +58,12 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define LED_LG0__Pin GPIO_PIN_5
-#define LED_LG0__GPIO_Port GPIOB
-#define LED_LG0_Pin GPIO_PIN_6
+#define LED_LG0_Pin GPIO_PIN_5
 #define LED_LG0_GPIO_Port GPIOB
+#define LED_LG0__Pin GPIO_PIN_6
+#define LED_LG0__GPIO_Port GPIOB
+#define LED_nR0_Pin GPIO_PIN_0
+#define LED_nR0_GPIO_Port GPIOE
 
 /* USER CODE BEGIN Private defines */
 

@@ -1,2 +1,56 @@
 build
+.DS_Store
 */.DS_Store
+
+# ==== STM32CubeIDE / Eclipse build outputs & temp ====
+# Debug/Release フォルダ（プロジェクトごとに生成される）
+**/Debug/
+**/Release/
+**/build/
+
+# Object / binary / map / listing
+*.o
+*.obj
+*.a
+*.elf
+*.axf
+*.bin
+*.hex
+*.map
+*.lst
+*.srec
+
+# Dependency files and temp
+*.d
+*.dep
+*.tmp
+*.log
+
+# External tool / Eclipse temporary
+.externalToolBuilders/
+*.launch
+.metadata/
+# キャッシュやエディタ固有のワークスペースファイル
+*.pydevproject
+.project.local
+.settings/.cache/
+
+# ==== General OS / Editor files ====
+.DS_Store
+Thumbs.db
+*.swp
+*~ 
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ==== ST-LINK / programmer outputs (任意) ====
+*.hex*
+*.bin*
+
+# ==== User-specific files (optionally ignored) ====
+# もしユーザー毎の設定を共有したくないなら
+# .project
+# .cproject
+# .settings/
